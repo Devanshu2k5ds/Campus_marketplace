@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 const JWT_SECRET = "your_secret_key_here";
 
 // MongoDB connection string for the new database
-const MONGO_URI = "mongodb://localhost:27017/student_ecommerce";
+const MONGO_URI = "mongodb+srv://singladevanshu925_db_user:XmhMebzbyCZzJ79g@cluster.8zvwytg.mongodb.net/";
 
 // Middleware
 app.use(cors());
