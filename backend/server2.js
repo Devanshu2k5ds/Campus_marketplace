@@ -29,7 +29,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage });
 
 // MongoDB Connection URI
-const MONGO_URI = "mongodb://127.0.0.1:27017/campus_marketplace";
+const MONGO_URI = "mongodb+srv://singladevanshu925_db_user:XmhMebzbyCZzJ79g@cluster.8zvwytg.mongodb.net/";
 mongoose
   .connect(MONGO_URI, {
     useNewUrlParser: true,
